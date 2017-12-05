@@ -1,0 +1,11 @@
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.csprojResolveAssemblyReference.cache
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.csproj.CoreCompileInputs.cache
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.AssemblyInfoInputs.cache
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.AssemblyInfo.cs
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/bin/Debug/netcoreapp2.0/IncidentTest.deps.json
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/bin/Debug/netcoreapp2.0/IncidentTest.runtimeconfig.json
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/bin/Debug/netcoreapp2.0/IncidentTest.runtimeconfig.dev.json
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/bin/Debug/netcoreapp2.0/IncidentTest.dll
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/bin/Debug/netcoreapp2.0/IncidentTest.pdb
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.dll
+/Users/michaelstoddart/Projects/IncidentTest/IncidentTest/obj/Debug/netcoreapp2.0/IncidentTest.pdb
