@@ -19,7 +19,7 @@
     "IncidentTest": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/incident",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

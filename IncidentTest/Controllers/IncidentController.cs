@@ -19,8 +19,7 @@ namespace IncidentTest.Controllers {
             connection = new MySqlConnection(connectionString);
         }
 
-
-        [HttpGet()]
+        [HttpGet]
         public IEnumerable<IncidentReport> GetAll() {
             List<IncidentReport> list = new List<IncidentReport>();
 
@@ -40,10 +39,46 @@ namespace IncidentTest.Controllers {
                         });
                     }
                 }
-                connection.Close();
             }
             return list;
         }
+
+        [HttpGet("{id}", Name = "GetById")]
+        public IActionResult GetById(long id) {
+
+            IncidentReport result = null;
+
+            using (connection) {
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from reports where id=" + id, connection);
+
+                using (var reader = cmd.ExecuteReader()) {
+                    while (reader.Read()) {
+                        result = new IncidentReport() {
+                            id = Convert.ToInt32(reader["id"]),
+                            title = reader["title"].ToString(),
+                            description = reader["description"].ToString(),
+                            reportedBy = Convert.ToInt32(reader["reportedBy"]),
+                            personAffected = Convert.ToInt32(reader["personAffected"]),
+                            location = Convert.ToInt32(reader["location"])
+
+                        };
+
+                    }
+
+                }
+            }
+
+            if(result == null){
+                return NotFound();
+            }
+
+            return new ObjectResult(result);
+
+        }
+
     }
 
 }
+
+    
