@@ -25,7 +25,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.3",
           "Microsoft.NETCore.App": "2.0.0",
-          "MySql.Data": "6.10.4"
+          "MySql.Data": "6.10.4",
+          "MySql.Data.Entity.EF5": "6.9.10.0",
+          "MySql.Data.Entity.EF6": "6.9.10.0",
+          "MySql.Fabric.Plugin": "6.9.10.0",
+          "MySql.Web": "6.9.10.0"
         },
         "runtime": {
           "IncidentTest.dll": {}
@@ -4012,6 +4016,38 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "MySql.Data.Entity.EF5/6.9.10.0": {
+        "runtime": {
+          "MySql.Data.Entity.EF5.dll": {}
+        },
+        "compile": {
+          "MySql.Data.Entity.EF5.dll": {}
+        }
+      },
+      "MySql.Data.Entity.EF6/6.9.10.0": {
+        "runtime": {
+          "MySql.Data.Entity.EF6.dll": {}
+        },
+        "compile": {
+          "MySql.Data.Entity.EF6.dll": {}
+        }
+      },
+      "MySql.Fabric.Plugin/6.9.10.0": {
+        "runtime": {
+          "MySql.Fabric.Plugin.dll": {}
+        },
+        "compile": {
+          "MySql.Fabric.Plugin.dll": {}
+        }
+      },
+      "MySql.Web/6.9.10.0": {
+        "runtime": {
+          "MySql.Web.dll": {}
+        },
+        "compile": {
+          "MySql.Web.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -4822,7 +4858,7 @@
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "sha512-eW5SDUn+9hf+2WPExF1Z5x+k2rnmLjJBkP4XNsVKtSK++qw4fieV5UC3WV04GjfneTL6qtHfvqDsug7SaECuNQ==",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hashPath": "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512"
     },
@@ -5354,7 +5390,7 @@
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "sha512-Vf0GLWWjnP3QtD1F+6F0Z7BFNN9FdkLOhPK2xMMPOjJ2IsxgsH4qCy1TeXQr/TnLbUknqD9Bns9TGnONIILzag==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
     },
@@ -5830,7 +5866,7 @@
     "System.Linq.Queryable/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "sha512-lv8qPRRUvVjU/KoHpAnym5RRFwiR6GQ/yxfDqgS1cJeJP5t7EfM2gHifvAs9WNp/gz8NT9+/plehW19+R+FpzA==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
@@ -6236,7 +6272,7 @@
     "System.Xml.XmlSerializer/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "sha512": "sha512-eymn75FmGJQAEwAHImqMoxpwQyou8jJ3QbL99baGRX4VRDhPCRzMJA7JGMb8i7nKeQ5wBrQ26gbCnW0dtBceiw==",
       "path": "system.xml.xmlserializer/4.0.11",
       "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
     },
@@ -6260,6 +6296,26 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "MySql.Data.Entity.EF5/6.9.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data.Entity.EF6/6.9.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Fabric.Plugin/6.9.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Web/6.9.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",

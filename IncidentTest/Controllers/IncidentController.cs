@@ -10,20 +10,23 @@ namespace IncidentTest.Controllers {
     public class IncidentController : Controller {
 
         private readonly IncidentContext context;
+        private static MySqlConnection connection;
+        private readonly string connectionString = "Server=localhost;User ID=root;Password=password;Database=incidentTest;Port=3306;Pooling=false";
 
 
         public IncidentController(IncidentContext context) {
             this.context = context;
+            connection = new MySqlConnection(connectionString);
         }
 
 
-        [HttpGet]
+        [HttpGet()]
         public IEnumerable<IncidentReport> GetAll() {
             List<IncidentReport> list = new List<IncidentReport>();
 
-            using (MySqlConnection conn = context.GetConnection()) {
-                conn.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from reports", conn);
+            using (connection) {
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from reports", connection);
 
                 using (var reader = cmd.ExecuteReader()) {
                     while (reader.Read()) {
@@ -37,14 +40,10 @@ namespace IncidentTest.Controllers {
                         });
                     }
                 }
+                connection.Close();
             }
             return list;
         }
-
-
-
-
-
     }
 
 }

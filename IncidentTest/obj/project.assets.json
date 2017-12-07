@@ -21815,7 +21815,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "eW5SDUn+9hf+2WPExF1Z5x+k2rnmLjJBkP4XNsVKtSK++qw4fieV5UC3WV04GjfneTL6qtHfvqDsug7SaECuNQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -23643,7 +23643,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "Vf0GLWWjnP3QtD1F+6F0Z7BFNN9FdkLOhPK2xMMPOjJ2IsxgsH4qCy1TeXQr/TnLbUknqD9Bns9TGnONIILzag==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -27013,7 +27013,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "lv8qPRRUvVjU/KoHpAnym5RRFwiR6GQ/yxfDqgS1cJeJP5t7EfM2gHifvAs9WNp/gz8NT9+/plehW19+R+FpzA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -29820,7 +29820,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "sha512": "eymn75FmGJQAEwAHImqMoxpwQyou8jJ3QbL99baGRX4VRDhPCRzMJA7JGMb8i7nKeQ5wBrQ26gbCnW0dtBceiw==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [
