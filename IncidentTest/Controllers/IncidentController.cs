@@ -63,18 +63,14 @@ namespace IncidentTest.Controllers {
                             location = Convert.ToInt32(reader["location"])
 
                         };
-
                     }
-
                 }
             }
 
             if(result == null){
-                return new ObjectResult("Not Found");
+                return NotFound();
             }
-
             return new ObjectResult(result);
-
         }
 
     }
