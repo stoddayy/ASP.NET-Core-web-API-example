@@ -70,7 +70,7 @@ namespace IncidentTest.Controllers {
             }
 
             if(result == null){
-                return NotFound();
+                return new ObjectResult("Not Found");
             }
 
             return new ObjectResult(result);
