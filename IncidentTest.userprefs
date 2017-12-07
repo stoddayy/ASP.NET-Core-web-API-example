@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{C38D8D8C-2945-4FC5-9AB9-2B109BF65947}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IncidentTest Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IncidentTest/Controllers/IncidentController.cs">
     <Files>
       <File FileName="IncidentTest/Models/IncidentContext.cs" Line="16" Column="9" />
-      <File FileName="IncidentTest/Controllers/IncidentController.cs" Line="46" Column="19" />
+      <File FileName="IncidentTest/Controllers/IncidentController.cs" Line="1" Column="1" />
       <File FileName="IncidentTest/Models/IncidentReport.cs" Line="18" Column="38" />
       <File FileName="IncidentTest/Models/Location.cs" Line="1" Column="1" />
       <File FileName="IncidentTest/Models/User.cs" Line="1" Column="1" />
@@ -13,7 +13,6 @@
       <File FileName="IncidentTest/Controllers/ValuesController.cs" Line="9" Column="18" />
       <File FileName="../../.nuget/packages/mysql.data/6.10.4/contentFiles/any/netstandard1.3/app.config.transform" Line="1" Column="1" />
       <File FileName="IncidentTest/Program.cs" Line="18" Column="1" />
-      <File FileName="IncidentTest Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
